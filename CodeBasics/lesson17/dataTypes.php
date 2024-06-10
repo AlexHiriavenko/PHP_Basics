@@ -1,5 +1,5 @@
 <?php
 
 // BEGIN (write your solution here)
-print_r(5 ** 2 - (3 * 7));
+print_r(-0.304);
 // END
