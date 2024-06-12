@@ -1,5 +1,7 @@
 <?php
 
+$text = 'mount';
+
 // BEGIN (write your solution here)
-print_r(__DIR__);
+print_r(ucfirst($text));
 // END
