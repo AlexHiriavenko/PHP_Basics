@@ -10,3 +10,10 @@ function getYear($timestamp)
     return +date("Y", $timestamp);
     // END
 }
+
+function getYear2($timestamp)
+{
+    // BEGIN
+    return 1970 + (int) floor($timestamp / SECONDS_IN_YEAR);
+    // END
+}
